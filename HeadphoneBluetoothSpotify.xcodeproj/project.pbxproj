@@ -11,6 +11,8 @@
 		FDB9D5B91AB23F2F00F9026E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5B81AB23F2F00F9026E /* Images.xcassets */; };
 		FDB9D5BC1AB23F2F00F9026E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5BA1AB23F2F00F9026E /* MainMenu.xib */; };
 		FDB9D5C81AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9D5C71AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift */; };
+		FDB9D5D31AB2419400F9026E /* headphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5D21AB2419400F9026E /* headphone.png */; };
+		FDB9D5D51AB2426900F9026E /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB9D5D41AB2426900F9026E /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		FDB9D5C11AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadphoneBluetoothSpotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB9D5C61AB23F2F00F9026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB9D5C71AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneBluetoothSpotifyTests.swift; sourceTree = "<group>"; };
+		FDB9D5D21AB2419400F9026E /* headphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphone.png; sourceTree = "<group>"; };
+		FDB9D5D41AB2426900F9026E /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB9D5D51AB2426900F9026E /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +60,7 @@
 		FDB9D5A81AB23F2F00F9026E = {
 			isa = PBXGroup;
 			children = (
+				FDB9D5D41AB2426900F9026E /* ScriptingBridge.framework */,
 				FDB9D5B31AB23F2F00F9026E /* HeadphoneBluetoothSpotify */,
 				FDB9D5C41AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests */,
 				FDB9D5B21AB23F2F00F9026E /* Products */,
@@ -73,6 +79,7 @@
 		FDB9D5B31AB23F2F00F9026E /* HeadphoneBluetoothSpotify */ = {
 			isa = PBXGroup;
 			children = (
+				FDB9D5D11AB2419400F9026E /* Resources */,
 				FDB9D5B61AB23F2F00F9026E /* AppDelegate.swift */,
 				FDB9D5B81AB23F2F00F9026E /* Images.xcassets */,
 				FDB9D5BA1AB23F2F00F9026E /* MainMenu.xib */,
@@ -104,6 +111,14 @@
 				FDB9D5C61AB23F2F00F9026E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB9D5D11AB2419400F9026E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5D21AB2419400F9026E /* headphone.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB9D5D31AB2419400F9026E /* headphone.png in Resources */,
 				FDB9D5B91AB23F2F00F9026E /* Images.xcassets in Resources */,
 				FDB9D5BC1AB23F2F00F9026E /* MainMenu.xib in Resources */,
 			);
