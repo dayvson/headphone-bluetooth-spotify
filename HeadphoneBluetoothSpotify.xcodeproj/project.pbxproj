@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB9D5B71AB23F2F00F9026E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9D5B61AB23F2F00F9026E /* AppDelegate.swift */; };
+		FDB9D5B91AB23F2F00F9026E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5B81AB23F2F00F9026E /* Images.xcassets */; };
+		FDB9D5BC1AB23F2F00F9026E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5BA1AB23F2F00F9026E /* MainMenu.xib */; };
+		FDB9D5C81AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9D5C71AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB9D5C21AB23F2F00F9026E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB9D5A91AB23F2F00F9026E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB9D5B01AB23F2F00F9026E;
+			remoteInfo = HeadphoneBluetoothSpotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDB9D5B11AB23F2F00F9026E /* HeadphoneBluetoothSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadphoneBluetoothSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB9D5B51AB23F2F00F9026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB9D5B61AB23F2F00F9026E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB9D5B81AB23F2F00F9026E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDB9D5BB1AB23F2F00F9026E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FDB9D5C11AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadphoneBluetoothSpotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB9D5C61AB23F2F00F9026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB9D5C71AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneBluetoothSpotifyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB9D5AE1AB23F2F00F9026E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB9D5BE1AB23F2F00F9026E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB9D5A81AB23F2F00F9026E = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5B31AB23F2F00F9026E /* HeadphoneBluetoothSpotify */,
+				FDB9D5C41AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests */,
+				FDB9D5B21AB23F2F00F9026E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB9D5B21AB23F2F00F9026E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5B11AB23F2F00F9026E /* HeadphoneBluetoothSpotify.app */,
+				FDB9D5C11AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB9D5B31AB23F2F00F9026E /* HeadphoneBluetoothSpotify */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5B61AB23F2F00F9026E /* AppDelegate.swift */,
+				FDB9D5B81AB23F2F00F9026E /* Images.xcassets */,
+				FDB9D5BA1AB23F2F00F9026E /* MainMenu.xib */,
+				FDB9D5B41AB23F2F00F9026E /* Supporting Files */,
+			);
+			path = HeadphoneBluetoothSpotify;
+			sourceTree = "<group>";
+		};
+		FDB9D5B41AB23F2F00F9026E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5B51AB23F2F00F9026E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB9D5C41AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5C71AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift */,
+				FDB9D5C51AB23F2F00F9026E /* Supporting Files */,
+			);
+			path = HeadphoneBluetoothSpotifyTests;
+			sourceTree = "<group>";
+		};
+		FDB9D5C51AB23F2F00F9026E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9D5C61AB23F2F00F9026E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB9D5B01AB23F2F00F9026E /* HeadphoneBluetoothSpotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB9D5CB1AB23F2F00F9026E /* Build configuration list for PBXNativeTarget "HeadphoneBluetoothSpotify" */;
+			buildPhases = (
+				FDB9D5AD1AB23F2F00F9026E /* Sources */,
+				FDB9D5AE1AB23F2F00F9026E /* Frameworks */,
+				FDB9D5AF1AB23F2F00F9026E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadphoneBluetoothSpotify;
+			productName = HeadphoneBluetoothSpotify;
+			productReference = FDB9D5B11AB23F2F00F9026E /* HeadphoneBluetoothSpotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB9D5C01AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB9D5CE1AB23F2F00F9026E /* Build configuration list for PBXNativeTarget "HeadphoneBluetoothSpotifyTests" */;
+			buildPhases = (
+				FDB9D5BD1AB23F2F00F9026E /* Sources */,
+				FDB9D5BE1AB23F2F00F9026E /* Frameworks */,
+				FDB9D5BF1AB23F2F00F9026E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB9D5C31AB23F2F00F9026E /* PBXTargetDependency */,
+			);
+			name = HeadphoneBluetoothSpotifyTests;
+			productName = HeadphoneBluetoothSpotifyTests;
+			productReference = FDB9D5C11AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB9D5A91AB23F2F00F9026E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "maxwell dasilva";
+				TargetAttributes = {
+					FDB9D5B01AB23F2F00F9026E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FDB9D5C01AB23F2F00F9026E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FDB9D5B01AB23F2F00F9026E;
+					};
+				};
+			};
+			buildConfigurationList = FDB9D5AC1AB23F2F00F9026E /* Build configuration list for PBXProject "HeadphoneBluetoothSpotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB9D5A81AB23F2F00F9026E;
+			productRefGroup = FDB9D5B21AB23F2F00F9026E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB9D5B01AB23F2F00F9026E /* HeadphoneBluetoothSpotify */,
+				FDB9D5C01AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB9D5AF1AB23F2F00F9026E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB9D5B91AB23F2F00F9026E /* Images.xcassets in Resources */,
+				FDB9D5BC1AB23F2F00F9026E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB9D5BF1AB23F2F00F9026E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB9D5AD1AB23F2F00F9026E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB9D5B71AB23F2F00F9026E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB9D5BD1AB23F2F00F9026E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB9D5C81AB23F2F00F9026E /* HeadphoneBluetoothSpotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB9D5C31AB23F2F00F9026E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB9D5B01AB23F2F00F9026E /* HeadphoneBluetoothSpotify */;
+			targetProxy = FDB9D5C21AB23F2F00F9026E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB9D5BA1AB23F2F00F9026E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB9D5BB1AB23F2F00F9026E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB9D5C91AB23F2F00F9026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB9D5CA1AB23F2F00F9026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDB9D5CC1AB23F2F00F9026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeadphoneBluetoothSpotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDB9D5CD1AB23F2F00F9026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeadphoneBluetoothSpotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDB9D5CF1AB23F2F00F9026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeadphoneBluetoothSpotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadphoneBluetoothSpotify.app/Contents/MacOS/HeadphoneBluetoothSpotify";
+			};
+			name = Debug;
+		};
+		FDB9D5D01AB23F2F00F9026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeadphoneBluetoothSpotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadphoneBluetoothSpotify.app/Contents/MacOS/HeadphoneBluetoothSpotify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB9D5AC1AB23F2F00F9026E /* Build configuration list for PBXProject "HeadphoneBluetoothSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB9D5C91AB23F2F00F9026E /* Debug */,
+				FDB9D5CA1AB23F2F00F9026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB9D5CB1AB23F2F00F9026E /* Build configuration list for PBXNativeTarget "HeadphoneBluetoothSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB9D5CC1AB23F2F00F9026E /* Debug */,
+				FDB9D5CD1AB23F2F00F9026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB9D5CE1AB23F2F00F9026E /* Build configuration list for PBXNativeTarget "HeadphoneBluetoothSpotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB9D5CF1AB23F2F00F9026E /* Debug */,
+				FDB9D5D01AB23F2F00F9026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB9D5A91AB23F2F00F9026E /* Project object */;
+}
