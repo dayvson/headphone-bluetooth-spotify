@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD23B6F01AB2988300961484 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = FD23B6EF1AB2988300961484 /* build.sh */; };
+		FD9D8C141AB29C9100747055 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD9D8C131AB29C9100747055 /* icon.png */; };
 		FDB9D5B71AB23F2F00F9026E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9D5B61AB23F2F00F9026E /* AppDelegate.swift */; };
 		FDB9D5B91AB23F2F00F9026E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5B81AB23F2F00F9026E /* Images.xcassets */; };
 		FDB9D5BC1AB23F2F00F9026E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB9D5BA1AB23F2F00F9026E /* MainMenu.xib */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		FD23B6EF1AB2988300961484 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		FD9D8C131AB29C9100747055 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		FDB9D5B11AB23F2F00F9026E /* HeadphoneBluetoothSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadphoneBluetoothSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB9D5B51AB23F2F00F9026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB9D5B61AB23F2F00F9026E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		FDB9D5D11AB2419400F9026E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FD9D8C131AB29C9100747055 /* icon.png */,
 				FDB9D5D21AB2419400F9026E /* headphone.png */,
 			);
 			path = Resources;
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB9D5D31AB2419400F9026E /* headphone.png in Resources */,
+				FD9D8C141AB29C9100747055 /* icon.png in Resources */,
 				FD23B6F01AB2988300961484 /* build.sh in Resources */,
 				FDB9D5B91AB23F2F00F9026E /* Images.xcassets in Resources */,
 				FDB9D5BC1AB23F2F00F9026E /* MainMenu.xib in Resources */,
