@@ -4,10 +4,13 @@ So when the application is running it will listen any bluetooth headphones event
 I decided to support the most important events such as: play/pause track and the controls to go for the next and previous track. 
 #Installation
 <a href="https://github.com/dayvson/headphone-bluetooth-spotify/raw/master/dist/HeadphoneBluetoothSpotify.zip">Download</a> the zip extract it and move the .app file to your application folder.
-I recommend you to add the application to login items so you do not need to open it.
+I also recommend you to add the application to login items so you do not need to open it everytime.
+
+
+#Play Button iTunes patch
+This is a <a href="https://github.com/thebitguru/play-button-itunes-patch">patch for removing the default OS X behavior of always starting iTunes when the play button on the keyboard is pressed</a>. 
+
 
 #Preview
 <img src="https://raw.githubusercontent.com/dayvson/headphone-bluetooth-spotify/master/app-screenshot.png" />
 
-#License
-MIT
