@@ -10,7 +10,7 @@ I also recommend you to add the application to login items so you do not need to
 #Play Button iTunes patch
 This is a <a href="https://github.com/thebitguru/play-button-itunes-patch">patch for removing the default OS X behavior of always starting iTunes when the play button on the keyboard is pressed</a>. 
 
-##Hacking Spotify Client (the latest version of Spotify does not provide a script bridge, do this until Spoftify fix it):
+##Hacking Spotify Client (the latest version of Spotify does not provide a script bridge, do this until Spotify fix it):
 1. Go to /Applications/Spotify.app/Contents and open the Info.plist file in a text editor.
 2. Scroll down to the bottom of the file.
 3. Change the string "Spotify.sdef" to "applescript/Spotify.sdef" and save the file.
